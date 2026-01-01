@@ -24,3 +24,8 @@
 - **IDE**: VS Code
 - **Extensions**: STM32 VS Code Extension, CMake, Cortex-Debug
 - **Toolchain**: ARM GCC Toolchain
+
+## 參考資料
+- **Gemini pro**
+- **成果筆記**: [連結](https://www.st.com/resource/en/user_manual/dm00039084-discovery-kit-with-stm32f407vg-mcu-stmicroelectronics.pdf)
+- **教學影片**: [連結](https://www.bilibili.com/video/BV1s5411L7cD/?p=2&share_source=copy_web&vd_source=594a49870a6460f2745c6196d372f4d8)
