@@ -3,7 +3,7 @@
 
 ## 學習資源與筆記
 詳細的技術筆記、原理分析與 Debug 過程紀錄於 HackMD：
-- [我的 STM32 學習筆記 (HackMD連結)](https://hackmd.io/?nav=overview)
+- [Lab0: 開發環境建置](https://hackmd.io/tjXVD66tTE2wT-CoQUvF4Q)
 
 ## 硬體環境 (Hardware)
 - **MCU**: STM32F407VGT6 (ARM Cortex-M4)
