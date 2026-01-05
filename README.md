@@ -18,7 +18,7 @@
 | Lab | 名稱 | 描述 | 關鍵技術 |
 | :---: | :--- | :--- | :--- |
 | 00 | [STM32_envCreate](./STM32_envCreate) | 建立現代化開發環境 (CMake, CubeMX, VS Code) | Environment Setup |
-| 01 | [Lab01_Blinky](./Lab01_LED_Blinky) | 讓開發板上的 4 顆 LED 閃爍 | GPIO Output |
+| 01 | [Lab01_LED_Blinky](./Lab01_LED_Blinky) | 讓開發板上的 4 顆 LED 閃爍 | GPIO Output |
 | ... | ... | ... | ... |
 
 ## 開發環境 (Software)

@@ -16,7 +16,7 @@ Release/
 # 2. 編輯器暫存與快取 (必須忽略)
 # -----------------------------
 .clangd
-.vscode/ipch/
+.vscode/
 .settings/
 *.code-workspace
 .DS_Store
