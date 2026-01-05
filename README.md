@@ -4,6 +4,7 @@
 ## 學習資源與筆記
 詳細的技術筆記、原理分析與 Debug 過程紀錄於 HackMD：
 - [Lab0: 開發環境建置](https://hackmd.io/tjXVD66tTE2wT-CoQUvF4Q)
+- [Lab01: LED Blinky](https://hackmd.io/@Mason0312/ByLPEDFNbx)
 
 ## 硬體環境 (Hardware)
 - **MCU**: STM32F407VGT6 (ARM Cortex-M4)
@@ -17,7 +18,7 @@
 | Lab | 名稱 | 描述 | 關鍵技術 |
 | :---: | :--- | :--- | :--- |
 | 00 | [STM32_envCreate](./STM32_envCreate) | 建立現代化開發環境 (CMake, CubeMX, VS Code) | Environment Setup |
-| 01 | [Lab01_Blinky](./Lab01_Blinky) | 讓開發板上的 4 顆 LED 閃爍 (尚未建立) | GPIO Output |
+| 01 | [Lab01_Blinky](./Lab01_LED_Blinky) | 讓開發板上的 4 顆 LED 閃爍 | GPIO Output |
 | ... | ... | ... | ... |
 
 ## 開發環境 (Software)
