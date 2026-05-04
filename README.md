@@ -20,7 +20,7 @@
 | :---: | :--- | :--- | :--- |
 | 00 | [STM32_envCreate](./STM32_envCreate) | 建立現代化開發環境 (CMake, CubeMX, VS Code) | Environment Setup |
 | 01 | [Lab01_LED_Blinky](./Lab01_LED_Blinky) | 讓開發板上的 4 顆 LED 閃爍 | GPIO Output |
-| 02 | [Lab02_UART](./Lab02_UART) | 實現UART通訊 | 硬體接線, 暫存器操作, 查詢說明書Datasheet & Reference manual(RM0090) |
+| 02 | [Lab02_UART](./Lab02_UART) | 實現UART通訊 | 硬體接線, 暫存器操作, 查詢說明書Datasheet & USER manual|
 | ... | ... | ... | ... |
 
 ## 開發環境 (Software)
