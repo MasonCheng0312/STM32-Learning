@@ -1,14 +1,15 @@
 # MCU STM32 Learning
-這是我學習嵌入式系統與 STM32F407 Discovery 開發板的完整紀錄。
+學習嵌入式系統與 STM32F407 Discovery 開發板的完整紀錄。
 
 ## 學習資源與筆記
-詳細的技術筆記、原理分析與 Debug 過程紀錄於 HackMD：
-- [Lab0: 開發環境建置](https://hackmd.io/tjXVD66tTE2wT-CoQUvF4Q)
-- [Lab01: LED Blinky](https://hackmd.io/@Mason0312/ByLPEDFNbx)
+詳細的筆記、原理分析與 Debug 過程紀錄於 HackMD：
+- [Lab 0 : 開發環境建置](https://hackmd.io/tjXVD66tTE2wT-CoQUvF4Q)
+- [Lab 01 : LED Blinky](https://hackmd.io/@Mason0312/ByLPEDFNbx)
+- [Lab 02 : STM32 Bare-Metal UART](https://hackmd.io/@Mason0312/HJiN99oEZl)
 
 ## 硬體環境 (Hardware)
 - **MCU**: STM32F407VGT6 (ARM Cortex-M4)
-- **Board**: STM32F407G-DISC1 (Discovery Board)
+- **Board**: STM32F407G-DISC1
 - **Debugger**: ST-LINK/V2 (On-board)
 - **Peripherals**:
   - USB to TTL (CP2102)
@@ -19,11 +20,12 @@
 | :---: | :--- | :--- | :--- |
 | 00 | [STM32_envCreate](./STM32_envCreate) | 建立現代化開發環境 (CMake, CubeMX, VS Code) | Environment Setup |
 | 01 | [Lab01_LED_Blinky](./Lab01_LED_Blinky) | 讓開發板上的 4 顆 LED 閃爍 | GPIO Output |
+| 02 | [Lab02_UART](./Lab02_UART) | 實現UART通訊 | 硬體接線, 暫存器操作, 查詢說明書Datasheet & Reference manual(RM0090) |
 | ... | ... | ... | ... |
 
 ## 開發環境 (Software)
-- **IDE**: VS Code
-- **Extensions**: STM32 VS Code Extension, CMake, Cortex-Debug
+- **IDE**: VScode
+- **Extensions**: STM32 VScode Extension, CMake, Cortex-Debug
 - **Toolchain**: ARM GCC Toolchain
 
 ## 參考資料
