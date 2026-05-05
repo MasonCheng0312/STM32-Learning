@@ -6,6 +6,7 @@
 - [Lab 0 : 開發環境建置](https://hackmd.io/tjXVD66tTE2wT-CoQUvF4Q)
 - [Lab 01 : LED Blinky](https://hackmd.io/@Mason0312/ByLPEDFNbx)
 - [Lab 02 : STM32 Bare-Metal UART](https://hackmd.io/@Mason0312/HJiN99oEZl)
+- [Lab 03 : ISR and NVIC](https://hackmd.io/@Mason0312/rkWYv0IRZx)
 
 ## 硬體環境 (Hardware)
 - **MCU**: STM32F407VGT6 (ARM Cortex-M4)
@@ -21,6 +22,7 @@
 | 00 | [STM32_envCreate](./STM32_envCreate) | 建立現代化開發環境 (CMake, CubeMX, VS Code) | Environment Setup |
 | 01 | [Lab01_LED_Blinky](./Lab01_LED_Blinky) | 讓開發板上的 4 顆 LED 閃爍 | GPIO Output |
 | 02 | [Lab02_UART](./Lab02_UART) | 實現UART通訊 | 硬體接線, 暫存器操作, 查詢說明書Datasheet & USER manual|
+| 03 | [Lab03_ISR_and_NVIC](./Lab03_ISR_and_NVIC) | 了解ISR的重要性及實作 | 結合前兩個Lab的LED及UART，並且利用EXTI 以及NVIC來實現ISR|
 | ... | ... | ... | ... |
 
 ## 開發環境 (Software)
