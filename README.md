@@ -7,6 +7,7 @@
 - [Lab 01 : LED Blinky](https://hackmd.io/@Mason0312/ByLPEDFNbx)
 - [Lab 02 : STM32 Bare-Metal UART](https://hackmd.io/@Mason0312/HJiN99oEZl)
 - [Lab 03 : ISR and NVIC](https://hackmd.io/@Mason0312/rkWYv0IRZx)
+- [Lab 04 : Hardware Timer and FSM](https://hackmd.io/@Mason0312/HkXx_Kd0Zx)
 
 ## 硬體環境 (Hardware)
 - **MCU**: STM32F407VGT6 (ARM Cortex-M4)
