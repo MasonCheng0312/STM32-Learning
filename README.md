@@ -23,6 +23,7 @@
 | 01 | [Lab01_LED_Blinky](./Lab01_LED_Blinky) | 讓開發板上的 4 顆 LED 閃爍 | GPIO Output |
 | 02 | [Lab02_UART](./Lab02_UART) | 實現UART通訊 | 硬體接線, 暫存器操作, 查詢說明書Datasheet & USER manual|
 | 03 | [Lab03_ISR_and_NVIC](./Lab03_ISR_and_NVIC) | 了解ISR的重要性及實作 | 結合前兩個Lab的LED及UART，並且利用EXTI 以及NVIC來實現ISR|
+| 04 | [Lab04_HardwareTimer_and_FSM](./Lab04_HardwareTimer_and_FSM) | TIM與FSM的實作演練 | 結合LAB3的EXTI中斷以及利用TIM模組發生定期ISR取代HAL_DELAY|
 | ... | ... | ... | ... |
 
 ## 開發環境 (Software)
