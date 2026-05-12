@@ -8,6 +8,7 @@
 - [Lab 02 : STM32 Bare-Metal UART](https://hackmd.io/@Mason0312/HJiN99oEZl)
 - [Lab 03 : ISR and NVIC](https://hackmd.io/@Mason0312/rkWYv0IRZx)
 - [Lab 04 : Hardware Timer and FSM](https://hackmd.io/@Mason0312/HkXx_Kd0Zx)
+- [Lab 05 : PWM and Breathing Light](https://hackmd.io/@Mason0312/r1lFHN11zx)
 
 ## 硬體環境 (Hardware)
 - **MCU**: STM32F407VGT6 (ARM Cortex-M4)
@@ -24,7 +25,8 @@
 | 01 | [Lab01_LED_Blinky](./Lab01_LED_Blinky) | 讓開發板上的 4 顆 LED 閃爍 | GPIO Output |
 | 02 | [Lab02_UART](./Lab02_UART) | 實現UART通訊 | 硬體接線, 暫存器操作, 查詢說明書Datasheet & USER manual|
 | 03 | [Lab03_ISR_and_NVIC](./Lab03_ISR_and_NVIC) | 了解ISR的重要性及實作 | 結合前兩個Lab的LED及UART，並且利用EXTI 以及NVIC來實現ISR|
-| 04 | [Lab04_HardwareTimer_and_FSM](./Lab04_HardwareTimer_and_FSM) | TIM與FSM的實作演練 | 結合LAB3的EXTI中斷以及利用TIM模組發生定期ISR取代HAL_DELAY|
+| 04 | [Lab04_HardwareTimer_and_FSM](./Lab04_HardwareTimer_and_FSM) | TIM與FSM的實作演練 | 結合LAB 03的EXTI中斷以及利用TIM模組發生定期ISR取代HAL_DELAY|
+| 05 | [Lab05_PWM_and_breathLight](./Lab05_PWM_and_breathLight) | 利用TIM實作PWM並驅動呼吸燈運作 | 結合LAB 04的FSM並使用IRF520驅動模組實現呼吸燈|
 | ... | ... | ... | ... |
 
 ## 開發環境 (Software)
